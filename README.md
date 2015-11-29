@@ -1,8 +1,18 @@
-# About this project
+# Sobre este projeto
 
-In fact this is not a project. It is a flat repository that holds some scripts
-that I use in my daily basis for general automation.
+Este não é, na verdade, um projeto. Estes são alguns scripts que venho criando
+ao longo dos anos para o Mac OS X, no intuito de automatizar minhas tarefas
+diárias.
 
-I just decided to add this to Github as a public repository in order to share my
-tools and, also, to have some version control over it. I have developed a lot of
-them, but since they were only small tools, I never took care of it accordingly.
+Senti a necessidade de organizá-los em um repositório para que eu pudesse manter
+versões dos mesmos à medida em que minhas necessidades fossem mudando ao longo
+do tempo.
+
+## Linguagens
+
+Os serviços foram feitos usando o Apple Automator, ferramenta de automação que
+acompanha o Mac OS X gratuitamente. Os scripts foram escritos usando
+AppleScript, uma linguagem de scripting já bastante antiga no Mac OS.
+
+Para executar os scripts não é necessário instalar absolutamente nenhum software
+adicional. Toda a automação é realizada com software já disponível no Mac OS X.
