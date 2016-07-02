@@ -8,7 +8,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Image Set para iOS</string>
+				<string>Image Set para IOS</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
