@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		repeat with inputFile in input		set outputFile to (pdfFileName for POSIX path of inputFile)		if isPagesFile(POSIX path of inputFile) then			tell application "Pages"				set doc to open inputFile				export doc to outputFile as PDF				close doc			end tell		end if	end repeat		return inputend runon pdfFileName for pagesFile	set delimiters to AppleScript's text item delimiters	set AppleScript's text item delimiters to {"."}	set fileName to first text item of pagesFile	set AppleScript's text item delimiters to delimiters	set fileName to fileName &amp; ".pdf"	return POSIX file fileNameend pdfFileNameon isPagesFile(inputFile)	set delimiters to AppleScript's text item delimiters	set AppleScript's text item delimiters to {"."}	set extension to second text item of inputFile	set returnValue to (extension = "pages" or extension = "PAGES")	return returnValueend isPagesFile</string>
+					<string>on run {input, parameters}	set wrongFiles to {}	repeat with inputFile in input		set outputFile to (pdfFileName for POSIX path of inputFile)		if not isPagesFile(POSIX path of inputFile) then			copy (POSIX path of inputFile) to the end of wrongFiles		else			tell application "Pages"				set doc to open inputFile				export doc to outputFile as PDF				close doc			end tell		end if	end repeat		return wrongFilesend runon pdfFileName for pagesFile	set delimiters to AppleScript's text item delimiters	set AppleScript's text item delimiters to {"."}	set fileName to first text item of pagesFile	set AppleScript's text item delimiters to delimiters	set fileName to fileName &amp; ".pdf"	return POSIX file fileNameend pdfFileNameon isPagesFile(inputFile)	set delimiters to AppleScript's text item delimiters	set AppleScript's text item delimiters to {"."}	set extension to second text item of inputFile	set returnValue to (extension = "pages" or extension = "PAGES" or extension = "pages/" or extension = "PAGES/")	return returnValueend isPagesFile</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:316.000000</string>
+				<string>501.000000:496.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
