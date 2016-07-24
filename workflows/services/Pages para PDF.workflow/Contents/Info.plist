@@ -8,7 +8,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Compartilhar no Hiperload</string>
+				<string>Pages para PDF</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
@@ -19,7 +19,7 @@
 			</dict>
 			<key>NSSendFileTypes</key>
 			<array>
-				<string>public.folder</string>
+				<string>public.content</string>
 			</array>
 		</dict>
 	</array>

@@ -546,33 +546,33 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>26BF0963-3EDF-40EF-99BA-650C40F762B7</key>
+		<key>831C6D19-FD32-4008-A28E-F903B3EB9FE2</key>
 		<dict>
 			<key>from</key>
 			<string>266E5C53-A0DD-4506-927F-6ED161CA597B - 266E5C53-A0DD-4506-927F-6ED161CA597B</string>
 			<key>to</key>
 			<string>D301E8A0-C82E-41F6-8E42-F07C60E76C78 - D301E8A0-C82E-41F6-8E42-F07C60E76C78</string>
 		</dict>
-		<key>2C1BE634-ECB1-4DB5-925F-5A018183CD80</key>
+		<key>BE7B1227-312B-4128-82AA-628A706CE6B9</key>
 		<dict>
 			<key>from</key>
 			<string>CE8C0812-A380-423D-844B-3FE3ECB00173 - CE8C0812-A380-423D-844B-3FE3ECB00173</string>
 			<key>to</key>
 			<string>4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D - 4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D</string>
 		</dict>
-		<key>A82EB0AD-3684-45A7-BD33-2693A9B23907</key>
-		<dict>
-			<key>from</key>
-			<string>0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA - 0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA</string>
-			<key>to</key>
-			<string>266E5C53-A0DD-4506-927F-6ED161CA597B - 266E5C53-A0DD-4506-927F-6ED161CA597B</string>
-		</dict>
-		<key>D259245F-F26E-4548-9CF7-EE04F30FD057</key>
+		<key>DCCE576B-05CF-4A46-8077-5068876DF8F1</key>
 		<dict>
 			<key>from</key>
 			<string>4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D - 4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D</string>
 			<key>to</key>
 			<string>0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA - 0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA</string>
+		</dict>
+		<key>E5510FD9-F8E1-40D3-BE8D-CB35AD00C025</key>
+		<dict>
+			<key>from</key>
+			<string>0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA - 0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA</string>
+			<key>to</key>
+			<string>266E5C53-A0DD-4506-927F-6ED161CA597B - 266E5C53-A0DD-4506-927F-6ED161CA597B</string>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -593,7 +593,7 @@ end run</string>
 		<key>serviceApplicationPath</key>
 		<string>/System/Library/CoreServices/Finder.app</string>
 		<key>serviceInputTypeIdentifier</key>
-		<string>com.apple.Automator.fileSystemObject.document</string>
+		<string>com.apple.Automator.fileSystemObject.folder</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
