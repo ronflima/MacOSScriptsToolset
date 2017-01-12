@@ -1,18 +1,20 @@
-# Sobre este projeto
+# About macOS Scripts Toolset
 
-Este não é, na verdade, um projeto. Estes são alguns scripts que venho criando
-ao longo dos anos para o Mac OS X, no intuito de automatizar minhas tarefas
-diárias.
+This is not a project in fact. This is a set of scripts that I use for my own in
+order to automate my daily tasks. Some scripts are so specific and depend on a
+set of file templates that I use in my company. However, you can download and
+adapt them for your needs.
 
-Senti a necessidade de organizá-los em um repositório para que eu pudesse manter
-versões dos mesmos à medida em que minhas necessidades fossem mudando ao longo
-do tempo.
+# What is here?
 
-## Linguagens
+You will find a set of Automator and AppleScript scripts that I use to automate
+my daily tasks. There are some services and some standalone scripts that make my
+life really easy on macOS.
 
-Os serviços foram feitos usando o Apple Automator, ferramenta de automação que
-acompanha o Mac OS X gratuitamente. Os scripts foram escritos usando
-AppleScript, uma linguagem de scripting já bastante antiga no Mac OS.
+# License
 
-Para executar os scripts não é necessário instalar absolutamente nenhum software
-adicional. Toda a automação é realizada com software já disponível no Mac OS X.
+There is no license. Get it, use it, and be happy. You acknowledge that you will
+be using my scripts at your own risk. I do not guarantee anything and it is your
+own choice.
+
+Enjoy!
