@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>419</string>
+	<string>428</string>
 	<key>AMApplicationVersion</key>
-	<string>2.6</string>
+	<string>2.7</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>501.000000:112.000000</string>
+				<string>654.000000:112.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -156,7 +156,7 @@ end run</string>
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action</string>
 				<key>ActionName</key>
-				<string>Ajustar Valor da Variável</string>
+				<string>Definir Valor da Variável</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>variableUUID</key>
@@ -213,7 +213,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>501.000000:154.000000</string>
+				<string>654.000000:154.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -355,7 +355,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>501.000000:196.000000</string>
+				<string>654.000000:196.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -465,7 +465,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>501.000000:238.000000</string>
+				<string>654.000000:238.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -546,33 +546,33 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>831C6D19-FD32-4008-A28E-F903B3EB9FE2</key>
+		<key>38A4C6EE-7654-4C5C-92B6-3CA1619BFDA5</key>
 		<dict>
 			<key>from</key>
-			<string>266E5C53-A0DD-4506-927F-6ED161CA597B - 266E5C53-A0DD-4506-927F-6ED161CA597B</string>
+			<string>0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA - 0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA</string>
 			<key>to</key>
-			<string>D301E8A0-C82E-41F6-8E42-F07C60E76C78 - D301E8A0-C82E-41F6-8E42-F07C60E76C78</string>
+			<string>266E5C53-A0DD-4506-927F-6ED161CA597B - 266E5C53-A0DD-4506-927F-6ED161CA597B</string>
 		</dict>
-		<key>BE7B1227-312B-4128-82AA-628A706CE6B9</key>
+		<key>50709957-3F3B-4258-B047-F46F280B97F1</key>
+		<dict>
+			<key>from</key>
+			<string>4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D - 4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D</string>
+			<key>to</key>
+			<string>0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA - 0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA</string>
+		</dict>
+		<key>7CF5226B-8FE4-4252-8F7D-7DB02AAD4C21</key>
 		<dict>
 			<key>from</key>
 			<string>CE8C0812-A380-423D-844B-3FE3ECB00173 - CE8C0812-A380-423D-844B-3FE3ECB00173</string>
 			<key>to</key>
 			<string>4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D - 4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D</string>
 		</dict>
-		<key>DCCE576B-05CF-4A46-8077-5068876DF8F1</key>
+		<key>A36C0B23-E7DE-4D25-96BF-3FDC394EA66E</key>
 		<dict>
 			<key>from</key>
-			<string>4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D - 4A64DEAC-DBA8-4BDF-88BB-DAD4F3835F7D</string>
-			<key>to</key>
-			<string>0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA - 0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA</string>
-		</dict>
-		<key>E5510FD9-F8E1-40D3-BE8D-CB35AD00C025</key>
-		<dict>
-			<key>from</key>
-			<string>0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA - 0ED5A6D1-9F97-4FF0-BA5E-EC5A084350CA</string>
-			<key>to</key>
 			<string>266E5C53-A0DD-4506-927F-6ED161CA597B - 266E5C53-A0DD-4506-927F-6ED161CA597B</string>
+			<key>to</key>
+			<string>D301E8A0-C82E-41F6-8E42-F07C60E76C78 - D301E8A0-C82E-41F6-8E42-F07C60E76C78</string>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -593,7 +593,7 @@ end run</string>
 		<key>serviceApplicationPath</key>
 		<string>/System/Library/CoreServices/Finder.app</string>
 		<key>serviceInputTypeIdentifier</key>
-		<string>com.apple.Automator.fileSystemObject.folder</string>
+		<string>com.apple.Automator.fileSystemObject.document</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
